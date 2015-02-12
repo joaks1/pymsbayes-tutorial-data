@@ -23,7 +23,7 @@ batch_size=12500
 nsums=100000
 npost=1000
 nquantiles=1000
-reporting_freq=100000
+reporting_freq=200000
 sort_index=0
 seed=845225390
 
