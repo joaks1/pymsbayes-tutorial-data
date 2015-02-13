@@ -1,0 +1,4 @@
+num_of_div_events	estimated_prob	glm_adjusted_prob
+1	0.751	0.0247296504628
+2	0.196	0.946409895015
+3	0.053	0.0288604545222

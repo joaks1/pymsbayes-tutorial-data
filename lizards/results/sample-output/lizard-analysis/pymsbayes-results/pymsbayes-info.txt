@@ -1,0 +1,32 @@
+[pymsbayes]
+	version = Version 0.2.4
+	output_directory = /home/jamie/software/dev/pymsbayes-tutorial-data/lizards/results/sample-output/lizard-analysis/pymsbayes-results
+	temp_directory = /tmp/output.AIhZRlqXZ/temp-files-jVwf8Z
+	sort_index = 0
+	simulation_reps = 0
+	seed = 845225390
+	num_processors = 8
+	num_prior_samples = 10000000
+	num_standardizing_samples = 100000
+	bandwidth = 0.002
+	posterior_quantiles = 1000
+	posterior_sample_size = 1000
+	stat_patterns = ^\s*pi\.\d+\s*$, ^\s*wattTheta\.\d+\s*$, ^\s*pi\.net\.\d+\s*$, ^\s*tajD\.denom\.\d+\s*$
+	num_taxon_pairs = 3
+	dry_run = False
+	[[tool_paths]]
+		dpp_msbayes = /home/jamie/software/dev/PyMsBayes/bin/linux/dpp-msbayes.pl
+		msbayes = /home/jamie/software/dev/PyMsBayes/bin/linux/msbayes.pl
+		eureject = /home/jamie/software/dev/PyMsBayes/bin/linux/eureject
+		abcestimator = /home/jamie/software/dev/PyMsBayes/bin/linux/ABCestimator
+	[[observed_configs]]
+		1 = ../../../../configs/dpp-simple.cfg
+	[[observed_paths]]
+		1 = observed-summary-stats/observed-1.txt
+	[[prior_configs]]
+		1 = ../../../../configs/dpp-simple.cfg
+		2 = ../../../../configs/msbayes.cfg
+	[[run_stats]]
+		start_time = 2015-02-11 18:23:23.974611
+		stop_time = 2015-02-12 15:47:34.994574
+		total_duration = 21:24:11.019963

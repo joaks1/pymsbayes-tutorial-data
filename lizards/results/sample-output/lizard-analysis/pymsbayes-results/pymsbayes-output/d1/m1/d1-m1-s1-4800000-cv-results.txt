@@ -1,0 +1,2 @@
+cv_thresh	prob_less_than	glm_prob_less_than
+0.01	0.132	6.53666349585e-05
